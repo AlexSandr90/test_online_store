@@ -1,5 +1,6 @@
-.mainContent {
-    color: #ffffff;
+.mainContent,
+.mainContentText {
+    /*color: #ffffff;*/
     font-size: 2rem;
     font-weight: bold;
-};
+}

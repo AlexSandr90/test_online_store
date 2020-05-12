@@ -4,11 +4,14 @@ import content from './Content.module.css';
 
 const Content = () => {
 
-    const { mainContent } = content;
+    const {
+        mainContent,
+        mainContentText
+    } = content;
 
     return (
         <div className={ mainContent }>
-            Main Content
+            <h1 className={mainContentText}>Main Content</h1>
         </div>
     )
 };
